@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Banner from './components/Banner';
+import Choices from './components/Choices';
+import { Button } from './components/Button';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Banner /> 
+        <Choices />
+        <Choices label="Courgette"/>
+        <Button />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
