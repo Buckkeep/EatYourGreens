@@ -9,9 +9,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Banner /> 
+        <button>Simple Button</button>
         <Choices />
         <Choices label="Courgette"/>
-        <Button />
+        <Button label="Dummy"/>
+        <Button label="My Button" />
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

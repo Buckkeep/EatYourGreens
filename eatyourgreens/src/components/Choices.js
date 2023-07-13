@@ -1,9 +1,10 @@
 import React from 'react'
 
 function Choices() {
+    let label;
     return (
         <div>
-            <button></button>
+            <button>This is the Choices component { label }</button>
         </div>
     )
 }
