@@ -1,12 +1,14 @@
 import React from 'react'
 
-function Choices() {
-    let label;
+//left box OR align top on mobile 
+
+export const Choices = ({label}) => {
+
     return (
         <div>
-            <button>This is the Choices component { label }</button>
+            <button>
+                {label}
+            </button>
         </div>
     )
 }
-
-export default Choices

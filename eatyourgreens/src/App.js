@@ -1,19 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import Banner from './components/Banner';
-import Choices from './components/Choices';
-import { Button } from './components/Button';
+import {Choices} from './components/Choices';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Banner /> 
-        <button>Simple Button</button>
-        <Choices />
-        <Choices label="Courgette"/>
-        <Button label="Dummy"/>
-        <Button label="My Button" />
+        <Choices label="Cabbage"/>
+        <Choices label="Carrot"/>
+        <Choices label="Cucumber"/>
+        <Choices label="Onion"/>
+        <Choices label="Radish"/>
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
