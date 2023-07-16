@@ -1,7 +1,9 @@
 let vegetables = [
-    beans,
-    garlic,
-    rocket,
-    lettuce,
-    aubergine
-]
+  { label: 'beans' },
+  { label: 'garlic' },
+  { label: 'rocket' },
+  { label: 'lettuce' },
+  { label: 'aubergine' },
+];
+
+export default vegetables;

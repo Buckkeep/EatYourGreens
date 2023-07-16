@@ -2,8 +2,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import logo from "./logo.svg";
 import "./App.css";
 import Banner from "./components/Banner";
-/* import Choices from "./components/Choices";
-import Chosen from "./components/Chosen"; */
 import Main from "./components/Main"
 
 function App() {
@@ -12,8 +10,6 @@ function App() {
       <header className="App-header">
         <Banner />
         <Main />
-{/*         <Choices />
-        <Chosen /> */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
