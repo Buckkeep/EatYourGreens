@@ -1,7 +1,9 @@
+import { Option } from "./Option";
+
 function Chosen() {
     return (
-        <div>
-            <h2>You Ate These:</h2>
+        <div className='Chosen'>
+            <Option label ='Yummy Veg' />
         </div>
     )
 }

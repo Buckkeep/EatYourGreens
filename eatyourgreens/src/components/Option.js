@@ -6,7 +6,7 @@ export const Option = ({label}) => {
 
     return (
         <div>
-            <button>
+            <button className='btn btn-outline-warning btn-sm'>
                 {label}
             </button>
         </div>

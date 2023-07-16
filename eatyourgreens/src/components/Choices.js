@@ -2,8 +2,7 @@ import {Option} from './Option';
 
 function Choices() {
     return (
-    <div>
-        <h2>Select What You Ate:</h2>
+    <div className='Choices'>
         <Option label="Cabbage"/>
         <Option label="Carrot"/>
         <Option label="Cucumber"/>
