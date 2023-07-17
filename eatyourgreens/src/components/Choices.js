@@ -1,14 +1,12 @@
 import { Option } from "./Option";
-import vegetable from "./data";
+import vegetables from "./data";
 
 function Choices() {
   return (
     <div className="Choices">
-      {vegetable.map((values) => {
+      {vegetables.map((values) => {
         return (
-          <div>
-            <Option key={values.id} label={values.label}  />
-          </div>
+            <Option label={values.label} key={values.id}/>
         );
       })}
     </div>
