@@ -1,9 +1,9 @@
 let vegetables = [
-  { label: "beans", key: 1 },
-  { label: "garlic", key: 2 },
-  { label: "rocket", key: 3 },
-  { label: "lettuce", key: 4 },
-  { label: "aubergine", key: 5 },
+  { label: "beans", id: "beans" },
+  { label: "garlic", id: "garlic" },
+  { label: "rocket", id: "rocket" },
+  { label: "lettuce", id: "lettuce" },
+  { label: "aubergine", id: "aubergine" },
 ];
 
 export default vegetables;

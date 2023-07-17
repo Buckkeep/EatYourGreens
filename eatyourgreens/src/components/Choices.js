@@ -7,7 +7,7 @@ function Choices() {
       {vegetable.map((values) => {
         return (
           <div>
-            <Option key={values.key} label={values.label}  />
+            <Option key={values.id} label={values.label}  />
           </div>
         );
       })}
