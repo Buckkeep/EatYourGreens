@@ -1,16 +1,18 @@
-import {Option} from './Option';
-// import vegetables from './data'
+import { Option } from "./Option";
+import vegetable from "./data";
 
 function Choices() {
-    return (
-    <div className='Choices'>
-        <Option label="Cabbage" />
-        <Option label="Carrot"/>
-        <Option label="Cucumber"/>
-        <Option label="Onion"/>
-        <Option label="Radish"/>
+  return (
+    <div className="Choices">
+      {vegetable.map((values) => {
+        return (
+          <div>
+            <Option key={values.key} label={values.label}  />
+          </div>
+        );
+      })}
     </div>
-    )
+  );
 }
 
 export default Choices;
