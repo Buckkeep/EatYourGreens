@@ -1,5 +1,5 @@
 import { Option } from "./Option";
-import vegetables from "./data";
+// import vegetables from "./data";
 
 function Chosen() {
     return (

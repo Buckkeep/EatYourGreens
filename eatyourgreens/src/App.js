@@ -2,7 +2,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import "./App.css";
 import Banner from "./components/Banner";
 import Main from "./components/Main";
-import { Option } from './components/Option';
+// import { Option } from './components/Option';
 
 /* class Clicked extends Option {
   constructor(props) {
